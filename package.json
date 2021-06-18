@@ -1,9 +1,9 @@
 {
-	"name": "portfolio",
+	"name": "template",
 	"private": true,
-	"description": "A simple portfolio for developers",
-	"version": "0.1.2",
-	"author": "Smakosh <ismai23l@hotmail.com>",
+	"description": "A simple template",
+	"version": "0.0.1",
+	"author": "Felikso <aleksandrasniegucka@wp.pl>",
 	"dependencies": {
 		"@browniebroke/gatsby-image-gallery": "^6.2.1",
 		"@react-icons/all-files": "^4.1.0",
@@ -78,10 +78,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:smakosh/gatsby-portfolio-dev.git"
+		"url": "git@github.com:felikso/ventus-trade-auta.git"
 	},
 	"bugs": {
-		"url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"
+		"url": "https://github.com/Felikso/ventus-trade-auta/issues"
 	},
 	"resolutions": {
 		"graphql": "^15.4.0",
