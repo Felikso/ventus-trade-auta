@@ -11,14 +11,14 @@ import { ProductDetailsWrapper, VinBox, ParametersBox, GridContentBox, GridBox, 
 import { alternativeLinks } from "constans/nav-items"
 
 
-import { ReactComponent as PriceIcon } from 'assets/ProductProps/price.svg'
-import { ReactComponent as VatIcon } from 'assets/ProductProps/vat.svg'
-import { ReactComponent as PetrolIcon } from 'assets/ProductProps/petrol.svg'
-import { ReactComponent as RoadIcon } from 'assets/ProductProps/road.svg'
-import { ReactComponent as AutomatIcon } from 'assets/ProductProps/gearboxAutomatic.svg'
-import { ReactComponent as ManualIcon } from 'assets/ProductProps/gearboxManual.svg'
-import { ReactComponent as HorseIcon } from 'assets/ProductProps/powerhorse.svg'
-import { ReactComponent as EngineIcon } from 'assets/ProductProps/engine.svg'
+import { ReactComponent as PriceIcon } from 'assets/product-props/price.svg'
+import { ReactComponent as VatIcon } from 'assets/product-props/vat.svg'
+import { ReactComponent as PetrolIcon } from 'assets/product-props/petrol.svg'
+import { ReactComponent as RoadIcon } from 'assets/product-props/road.svg'
+import { ReactComponent as AutomatIcon } from 'assets/product-props/gearboxAutomatic.svg'
+import { ReactComponent as ManualIcon } from 'assets/product-props/gearboxManual.svg'
+import { ReactComponent as HorseIcon } from 'assets/product-props/powerhorse.svg'
+import { ReactComponent as EngineIcon } from 'assets/product-props/engine.svg'
 
 
 export const query = graphql`

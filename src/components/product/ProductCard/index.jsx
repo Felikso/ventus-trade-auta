@@ -4,10 +4,10 @@ import { SectionTitle } from 'components/common'
 import { ProductCardContainer, ProductCardIconsContainer, ProductCardPhoto, ProductCardIconsBox, ProductCardIcons, ProductIcon } from './styles';
 import { ThemeContext } from 'providers/ThemeProvider';
 
-import { ReactComponent as PriceIcon } from 'assets/ProductProps/price.svg'
-import { ReactComponent as VatIcon } from 'assets/ProductProps/vat.svg'
-import { ReactComponent as PetrolIcon } from 'assets/ProductProps/petrol.svg'
-import { ReactComponent as RoadIcon } from 'assets/ProductProps/road.svg'
+import { ReactComponent as PriceIcon } from 'assets/product-props/price.svg'
+import { ReactComponent as VatIcon } from 'assets/product-props/vat.svg'
+import { ReactComponent as PetrolIcon } from 'assets/product-props/petrol.svg'
+import { ReactComponent as RoadIcon } from 'assets/product-props/road.svg'
 
 import { Button, PropCard } from "components/common"
 
