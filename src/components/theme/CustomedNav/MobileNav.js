@@ -9,6 +9,8 @@ import { StyledMobileLogo } from "./styles"
 
 import Toggler from './Toggler';
 
+import { supportsPassiveEvents } from 'detect-it';
+
 
 
 const MobileNavMenu = ({ links }) => {
@@ -24,9 +26,19 @@ const MobileNavMenu = ({ links }) => {
         setBackground(show)
       }
     }
-    document.addEventListener("scroll", handleScroll, { passive: true })
+    if (supportsPassiveEvents) {
+      // passive events are supported by the browser
+      document.addEventListener('scroll', handleScroll, {
+        capture: false,
+        passive: true,
+      });
+    } else {
+      // passive events are not supported by the browser
+      document.addEventListener('scroll', handleScroll, false);
+    }
 
     return () => {
+
       document.removeEventListener("scroll", handleScroll, { passive: true })
     }
   }, [])

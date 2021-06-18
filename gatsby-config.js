@@ -197,6 +197,7 @@ module.exports = {
 			  }
 			}, */
 		/* 		'gatsby-plugin-robots-txt', */
+		`gatsby-plugin-polyfill-io`,
 		`gatsby-plugin-preact`,
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.dev/offline
