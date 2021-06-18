@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from 'providers/ThemeProvider';
-import sunIcon from 'assets/icons/sun.svg';
-import moonIcon from 'assets/icons/moon.svg';
+/* import sunIcon from 'assets/icons/sun.svg';
+import moonIcon from 'assets/icons/moon.svg'; */
 /* import { ReactComponent as moonIcon } from "assets/icons/moon.svg"
 import { ReactComponent as sunIcon } from "assets/icons/sun.svg" */
 
-import { Wrapper } from './styles';
+/* import { Wrapper } from './styles'; */
 
 import Toggle from 'react-toggle';
 import { ToggleWrapper, ToggleIcons } from './styles'

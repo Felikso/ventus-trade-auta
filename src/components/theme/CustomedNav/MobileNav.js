@@ -16,8 +16,6 @@ const MobileNavMenu = ({ links }) => {
   const [background, setBackground] = useState(false)
   const navRef = useRef()
 
-  let passiveIfSupported = false;
-
   navRef.current = background
   useEffect(() => {
     const handleScroll = () => {
@@ -26,10 +24,10 @@ const MobileNavMenu = ({ links }) => {
         setBackground(show)
       }
     }
-    document.addEventListener("scroll", handleScroll, passiveIfSupported)
+    document.addEventListener("scroll", handleScroll, { passive: true })
 
     return () => {
-      document.removeEventListener("scroll", handleScroll, passiveIfSupported)
+      document.removeEventListener("scroll", handleScroll, { passive: true })
     }
   }, [])
 

@@ -9,7 +9,7 @@ const ScrollBtn = ({
 
 
     const [show, setShow] = useState(showBelow ? false : true)
-    let passiveIfSupported = false;
+
     const handleScroll = () => {
         if (window.pageYOffset > showBelow) {
             if (!show) setShow(true)
@@ -24,8 +24,8 @@ const ScrollBtn = ({
 
     useEffect(() => {
         if (showBelow) {
-            window.addEventListener(`scroll`, handleScroll, passiveIfSupported)
-            return () => window.removeEventListener(`scroll`, handleScroll, passiveIfSupported)
+            window.addEventListener(`scroll`, handleScroll, { passive: true })
+            return () => window.removeEventListener(`scroll`, handleScroll, { passive: true })
         }
     })
 
